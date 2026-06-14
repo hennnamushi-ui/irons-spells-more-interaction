@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCA",
+    "CBA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "traveloptics:resonant_scrap"
+    },
+    "B": {
+      "item": "alshanex_familiars:sound_rune"
+    },
+    "C": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "irons_spells_more_interaction:sound_echo_curio",
+    "count": 1
+  },
+  "show_notification": true
+}

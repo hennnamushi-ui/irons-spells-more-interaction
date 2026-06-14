@@ -1,0 +1,6 @@
+{
+  "type": "irons_spells_more_interaction:add_item",
+  "conditions": [],
+  "loot_table": "irons_spells_more_interaction:echo/random_more_curio_loot",
+  "chance": 1.0
+}

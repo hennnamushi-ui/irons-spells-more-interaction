@@ -1,0 +1,28 @@
+{
+  "item.apotheosis.gem.apotheosis:aqua": "Bubble gem",
+  "item.apotheosis.gem.apotheosis:abyssal": "Abyssal gem",
+  "item.apotheosis.gem.apotheosis:technomancy": "Technology gem",
+  "item.apotheosis.gem.apotheosis:geo": "Land gem",
+  "item.apotheosis.gem.apotheosis:eldritch": "Eldritch gem",
+  "item.apotheosis.gem.apotheosis:sound": "Sound gem",
+  "item.apotheosis.gem.apotheosis:fantasy": "Fantasy gem",
+  "item.apotheosis.gem.apotheosis:annihilation": "Annihilation gem",
+  "item.apotheosis.gem.apotheotic_additions:aqua": "Bubble gem",
+  "item.apotheosis.gem.apotheotic_additions:abyssal": "Abyssal gem",
+  "item.apotheosis.gem.apotheotic_additions:technomancy": "Technology gem",
+  "item.apotheosis.gem.apotheotic_additions:geo": "Land gem",
+  "item.apotheosis.gem.apotheotic_additions:eldritch": "Eldritch gem",
+  "item.apotheosis.gem.apotheotic_additions:sound": "Sound gem",
+  "item.apotheosis.gem.apotheotic_additions:fantasy": "Fantasy gem",
+  "item.apotheosis.gem.apotheotic_additions:annihilation": "Annihilation gem",
+  "item.irons_spells_more_interaction.abyssal_echo_curio": "Abyssal Echo",
+  "item.irons_spells_more_interaction.abyssal_echo_curio.unassigned.tooltip": "Not assigned. Right-click to assign a spell.",
+  "item.irons_spells_more_interaction.abyssal_echo_curio.assigned.tooltip": "Assigned - click to use.",
+  "item.irons_spells_more_interaction.sound_echo_curio": "Sound Echo",
+  "item.irons_spells_more_interaction.sound_echo_curio.unassigned.tooltip": "Not assigned. Right-click to assign a spell.",
+  "item.irons_spells_more_interaction.sound_echo_curio.assigned.tooltip": "Assigned - click to use.",
+  "item.irons_spells_more_interaction.techno_echo_curio": "Technology Echo",
+  "item.irons_spells_more_interaction.techno_echo_curio.unassigned.tooltip": "Not assigned. Right-click to assign a spell.",
+  "item.irons_spells_more_interaction.techno_echo_curio.assigned.tooltip": "Assigned - click to use."
+}
+

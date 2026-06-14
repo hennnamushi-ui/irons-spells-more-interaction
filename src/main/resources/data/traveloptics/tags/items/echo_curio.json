@@ -1,0 +1,10 @@
+{
+  "__comment": "items in this tag are treated as Echo curios",
+  "replace": false,
+  "values": [
+    "irons_spells_more_interaction:abyssal_echo_curio",
+    "irons_spells_more_interaction:techno_echo_curio",
+    "irons_spells_more_interaction:sound_echo_curio",
+    "irons_spells_more_interaction:annihilation_echo_curio"
+  ]
+}
