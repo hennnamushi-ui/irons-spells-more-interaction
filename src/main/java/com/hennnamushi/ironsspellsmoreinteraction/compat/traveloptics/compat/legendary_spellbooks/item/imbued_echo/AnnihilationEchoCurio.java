@@ -4,8 +4,6 @@ import com.gametechbc.traveloptics.api.item.AdvancedEchoCurio;
 import dev.higurashi.legendary_spellbooks.registries.LSAttributeRegistry;
 import dev.higurashi.legendary_spellbooks.registries.LSSpellRegistry;
 import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
-import net.acetheeldritchking.cataclysm_spellbooks.registries.CSAttributeRegistry;
-import net.acetheeldritchking.cataclysm_spellbooks.registries.SpellRegistries;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.ai.attributes.Attribute;
