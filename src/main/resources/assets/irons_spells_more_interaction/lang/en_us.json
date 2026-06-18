@@ -23,6 +23,8 @@
   "item.irons_spells_more_interaction.sound_echo_curio.assigned.tooltip": "Assigned - click to use.",
   "item.irons_spells_more_interaction.techno_echo_curio": "Technology Echo",
   "item.irons_spells_more_interaction.techno_echo_curio.unassigned.tooltip": "Not assigned. Right-click to assign a spell.",
-  "item.irons_spells_more_interaction.techno_echo_curio.assigned.tooltip": "Assigned - click to use."
+  "item.irons_spells_more_interaction.techno_echo_curio.assigned.tooltip": "Assigned - click to use.",
+  "item.irons_spells_more_interaction.annihilation_echo_curio.unassigned.tooltip": "Not assigned. Right-click to assign a spell.",
+  "item.irons_spells_more_interaction.annihilation_echo_curio.assigned.tooltip": "Assigned - click to use."
 }
 
