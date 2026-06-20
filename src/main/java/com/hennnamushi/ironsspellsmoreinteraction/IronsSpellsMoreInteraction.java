@@ -2,7 +2,11 @@ package com.hennnamushi.ironsspellsmoreinteraction;
 
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Scroll;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.item;
 import com.hennnamushi.ironsspellsmoreinteraction.init.ModLootModifiers;
+import com.hennnamushi.ironsspellsmoreinteraction.regi.tab.IronsSpellsMoreInteractionTabs;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
@@ -16,7 +20,12 @@ public final class IronsSpellsMoreInteraction {
     public IronsSpellsMoreInteraction() {
         IEventBus modEventBus =FMLJavaModLoadingContext.get().getModEventBus();
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-          ModLootModifiers.LOOT_MODIFIERS.register(modEventBus);
+        ModLootModifiers.LOOT_MODIFIERS.register(modEventBus);
+        IronsSpellsMoreInteractionTabs.MOD_TABS.register(modEventBus);
+        if (hasWind_SpellbooksCompat()){
+            Scroll.SCROLL_TABS.register(modEventBus);
+            item.ITEM.register(modEventBus);
+        }
         if (hasTravelopticsCompat()) {
             if (hasCataclysm_spellbooksCompat()) {
                 CSItems.ITEMS.register(bus);
@@ -26,6 +35,9 @@ public final class IronsSpellsMoreInteraction {
             }
             if (hasLegendary_SpellbooksCompat()) {
                 LSItems.ITEMS.register(bus);
+            }
+            if (hasWind_SpellbooksCompat()) {
+                WindItems.ITEMS.register(bus);
             }
         }
 
@@ -45,5 +57,9 @@ public final class IronsSpellsMoreInteraction {
 
     public static boolean hasLegendary_SpellbooksCompat() {
         return ModList.get().isLoaded("legendary_spellbooks");
+    }
+
+    public static boolean hasWind_SpellbooksCompat() {
+        return ModList.get().isLoaded("wind_spellbooks");
     }
 }

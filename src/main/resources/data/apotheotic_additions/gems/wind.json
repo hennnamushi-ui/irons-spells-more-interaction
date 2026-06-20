@@ -1,0 +1,84 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "apotheotic_additions"
+        }
+    ],
+    "variant": "wind",
+    "weight": 5,
+    "quality": 0,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "anything",
+                "types": ["helmet",
+                    "chestplate",
+                    "leggings",
+                    "boots"]
+            },
+            "attribute": "wind_spellbooks:wind_spell_power",
+            "operation": "MULTIPLY_TOTAL",
+            "values":
+            {
+                "common":
+                {
+                    "min": 0.01,
+                    "steps": 1,
+                    "step": 0
+                },
+                "uncommon":
+                {
+                    "min": 0.03,
+                    "steps": 1,
+                    "step": 0
+                },
+                "rare":
+                {
+                    "min": 0.05,
+                    "steps": 1,
+                    "step": 0
+                },
+                "epic":
+                {
+                    "min": 0.07,
+                    "steps": 1,
+                    "step": 0
+                },
+                "mythic":
+                {
+                    "min": 0.10,
+                    "steps": 1,
+                    "step": 0
+                },
+                "ancient":
+                {
+                    "min": 0.15,
+                    "steps": 1,
+                    "step": 0
+                },
+                "apotheotic_additions:artifact":
+                {
+                    "min": 0.20,
+                    "steps": 1,
+                    "step": 0
+                },
+                "apotheotic_additions:heirloom":
+                {
+                    "min": 0.25,
+                    "steps": 1,
+                    "step": 0
+                },
+                "apotheotic_additions:esoteric":
+                {
+                    "min": 0.35,
+                    "steps": 1,
+                    "step": 0
+                }
+            }
+        }
+    ]
+}

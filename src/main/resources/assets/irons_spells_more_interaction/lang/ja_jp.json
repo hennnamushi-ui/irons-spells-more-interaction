@@ -1,4 +1,6 @@
 {
+  "itemGroup.issmitab": "Iron's Spells More Interaction",
+  "itemGroup.wind_spellbooks_scroll_tab": "Wind Spellbooksのスクロール",
   "item.apotheosis.gem.apotheosis:aqua": "泡沫の宝石",
   "item.apotheosis.gem.apotheosis:abyssal": "深淵の宝石",
   "item.apotheosis.gem.apotheosis:technomancy": "技術の宝石",
@@ -7,6 +9,7 @@
   "item.apotheosis.gem.apotheosis:sound": "音の宝石",
   "item.apotheosis.gem.apotheosis:fantasy": "夢幻の宝石",
   "item.apotheosis.gem.apotheosis:annihilation": "壊滅の宝石",
+  "item.apotheosis.gem.apotheosis:wind": "疾風の宝石",
   "item.apotheosis.gem.apotheotic_additions:aqua": "泡沫の宝石",
   "item.apotheosis.gem.apotheotic_additions:abyssal": "深淵の宝石",
   "item.apotheosis.gem.apotheotic_additions:technomancy": "技術の宝石",
@@ -15,16 +18,20 @@
   "item.apotheosis.gem.apotheotic_additions:sound": "音の宝石",
   "item.apotheosis.gem.apotheotic_additions:fantasy": "夢幻の宝石",
   "item.apotheosis.gem.apotheotic_additions:annihilation": "壊滅の宝石",
+  "item.apotheosis.gem.apotheosis_additions:wind": "疾風の宝石",
   "item.irons_spells_more_interaction.abyssal_echo_curio": "深淵の残響",
   "item.irons_spells_more_interaction.abyssal_echo_curio.unassigned.tooltip": "§e右クリックして§2深淵の呪文を呼び覚ますのだ...",
   "item.irons_spells_more_interaction.abyssal_echo_curio.assigned.tooltip": "深淵の呪文が呼び覚まされた...深淵からこちらを望む何者かが力を貸してくれる...",
   "item.irons_spells_more_interaction.sound_echo_curio": "調べの残響",
-  "item.irons_spells_more_interaction.sound_echo_curio.unassigned.tooltip": "§e右クリックして§2音に力を貸してもらおう!",
+  "item.irons_spells_more_interaction.sound_echo_curio.unassigned.tooltip": "§e右クリックして§2音に力を貸してもらおう‼",
   "item.irons_spells_more_interaction.sound_echo_curio.assigned.tooltip": "音の呪文が吹き込まれた‼きっとこの音は君を助けるだろう",
   "item.irons_spells_more_interaction.techno_echo_curio": "技術の残響",
-  "item.irons_spells_more_interaction.techno_echo_curio.unassigned.tooltip": "§e右クリックして§2失われた技術を蘇らせよう!",
+  "item.irons_spells_more_interaction.techno_echo_curio.unassigned.tooltip": "§e右クリックして§2失われた技術を蘇らせよう‼",
   "item.irons_spells_more_interaction.techno_echo_curio.assigned.tooltip": "技術の呪文が吹き込まれたがこの力は一体...",
   "item.irons_spells_more_interaction.annihilation_echo_curio": "殲滅の残響",
   "item.irons_spells_more_interaction.annihilation_echo_curio.unassigned.tooltip": "§e右クリックして§2その力を呼び覚ませ‼",
-  "item.irons_spells_more_interaction.annihilation_echo_curio.assigned.tooltip": "殲滅の呪文が吹き込まれたどうやらこの力を使う権利があるようだ..."
+  "item.irons_spells_more_interaction.annihilation_echo_curio.assigned.tooltip": "殲滅の呪文が吹き込まれたどうやらこの力を使う権利があるようだ...",
+  "item.irons_spells_more_interaction.wind_echo_curio": "暴風の残響",
+  "item.irons_spells_more_interaction.wind_echo_curio.unassigned.tooltip": "§e右クリックして§2その息吹を解き放て",
+  "item.irons_spells_more_interaction.wind_echo_curio.assigned.tooltip": "風の呪文が吹き込まれたこの風はもしかしたら一羽の蝶の羽ばたきだったかもしれない"
 }

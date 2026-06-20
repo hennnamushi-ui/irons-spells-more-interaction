@@ -122,6 +122,8 @@ dependencies {
     implementation fg.deobf("curse.maven:legendary-spellbooks-1478875:8219346")
     implementation fg.deobf("curse.maven:legendary-monsters-944035:8242519")
 
+    implementation fg.deobf("curse.maven:winds-spellbooks-irons-spells-n-spellbooks-addon-1519158:8257717")
+
     compileOnly fg.deobf("maven.modrinth:jei:${jei_version}-forge,1.20.1")
     runtimeOnly fg.deobf("maven.modrinth:jei:${jei_version}-forge,1.20.1")
 
