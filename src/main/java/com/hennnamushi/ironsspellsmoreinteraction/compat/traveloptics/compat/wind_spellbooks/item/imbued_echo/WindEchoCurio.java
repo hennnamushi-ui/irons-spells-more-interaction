@@ -40,8 +40,9 @@ public class WindEchoCurio extends AdvancedEchoCurio {
         spells.put(ModSpellRegistry.TAILWIND_SPELL .get(), new SpellAttributes(3, true, 0.1f, 1f));
 
         if (hasLegendary_SpellbooksCompat()) {
-                spells.put(LSSpellRegistry.TORNADO_SPELL .get(), new SpellAttributes(10, true, 0.1f, 1f));
-                spells.put(LSSpellRegistry.QUAD_TORNADO_SPELL .get(), new SpellAttributes(5, true, 0.1f, 1f));
+            spells.put(LSSpellRegistry.TORNADO_SPELL .get(), new SpellAttributes(10, true, 0.1f, 1f));
+
+            spells.put(LSSpellRegistry.QUAD_TORNADO_SPELL .get(), new SpellAttributes(5, true, 0.1f, 1f));
             }
         return spells;
     }

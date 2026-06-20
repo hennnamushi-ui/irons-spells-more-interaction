@@ -14,7 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.raptorzizi.wind_spellbooks.registries.ModSpellRegistry;
 
-public class Scroll {
+public class Wind_Scroll {
 
     public static final DeferredRegister<CreativeModeTab> SCROLL_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, IronsSpellsMoreInteraction.MOD_ID);

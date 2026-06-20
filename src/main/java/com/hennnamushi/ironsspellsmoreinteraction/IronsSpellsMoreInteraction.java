@@ -1,10 +1,11 @@
 package com.hennnamushi.ironsspellsmoreinteraction;
 
+import com.hennnamushi.ironsspellsmoreinteraction.compat.alshanex_familiars.tab.Familiars_Scroll;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.cataclysm_spellbooks.tab.Cataclysm_Scroll;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Scroll;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.item;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Wind_Scroll;
 import com.hennnamushi.ironsspellsmoreinteraction.init.ModLootModifiers;
 import com.hennnamushi.ironsspellsmoreinteraction.regi.tab.IronsSpellsMoreInteractionTabs;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,8 +24,13 @@ public final class IronsSpellsMoreInteraction {
         ModLootModifiers.LOOT_MODIFIERS.register(modEventBus);
         IronsSpellsMoreInteractionTabs.MOD_TABS.register(modEventBus);
         if (hasWind_SpellbooksCompat()){
-            Scroll.SCROLL_TABS.register(modEventBus);
-            item.ITEM.register(modEventBus);
+            Wind_Scroll.SCROLL_TABS.register(modEventBus);
+        }
+        if (hasCataclysm_spellbooksCompat()) {
+            Cataclysm_Scroll.SCROLL_TABS.register(modEventBus);
+        }
+        if (hasAlshanex_FamiliarsCompat()) {
+            Familiars_Scroll.SCROLL_TABS.register(modEventBus);
         }
         if (hasTravelopticsCompat()) {
             if (hasCataclysm_spellbooksCompat()) {
