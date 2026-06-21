@@ -2,6 +2,7 @@ package com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wi
 
 import com.gametechbc.traveloptics.api.item.AdvancedEchoCurio;
 import dev.higurashi.legendary_spellbooks.registries.LSSpellRegistry;
+import io.redspace.ironsspellbooks.api.registry.SpellRegistry;
 import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
 import net.acetheeldritchking.cataclysm_spellbooks.registries.CSAttributeRegistry;
 import net.acetheeldritchking.cataclysm_spellbooks.registries.SpellRegistries;
@@ -25,24 +26,30 @@ public class WindEchoCurio extends AdvancedEchoCurio {
 
     protected Map<AbstractSpell, SpellAttributes> getSpellAttributes() {
         Map<AbstractSpell, SpellAttributes> spells = new LinkedHashMap();
-        spells.put(ModSpellRegistry.WIND_JUMP_SPELL .get(), new SpellAttributes(3, true, 0.1f, 1f));
+        spells.put(ModSpellRegistry.WIND_JUMP_SPELL.get(), new SpellAttributes(3, true, 0.1f, 1f));
 
-        spells.put(ModSpellRegistry.TORNADO_SPELL .get(), new SpellAttributes(5, true, 0.1f, 1f));
+        spells.put(ModSpellRegistry.TORNADO_SPELL.get(), new SpellAttributes(5, true, 0.1f, 1f));
 
-        spells.put(ModSpellRegistry.IRON_SLASH_SPELL .get(), new SpellAttributes(5, true, 0.1f, 1f));
+        spells.put(ModSpellRegistry.IRON_SLASH_SPELL.get(), new SpellAttributes(5, true, 0.1f, 1f));
 
-        spells.put(ModSpellRegistry.ACROBATICS_SPELL .get(), new SpellAttributes(4, true, 0.1f, 1f));
+        spells.put(ModSpellRegistry.ACROBATICS_SPELL.get(), new SpellAttributes(4, true, 0.1f, 1f));
 
-        spells.put(ModSpellRegistry.ALMIGHTY_PUSH_SPELL .get(), new SpellAttributes(10, true, 0.1f, 1f));
+        spells.put(ModSpellRegistry.ALMIGHTY_PUSH_SPELL.get(), new SpellAttributes(10, true, 0.1f, 1f));
 
-        spells.put(ModSpellRegistry.WIND_BLADE_SPELL .get(), new SpellAttributes(10, true, 0.1f, 1f));
+        spells.put(ModSpellRegistry.WIND_BLADE_SPELL.get(), new SpellAttributes(10, true, 0.1f, 1f));
 
-        spells.put(ModSpellRegistry.TAILWIND_SPELL .get(), new SpellAttributes(3, true, 0.1f, 1f));
+        spells.put(ModSpellRegistry.TAILWIND_SPELL.get(), new SpellAttributes(3, true, 0.1f, 1f));
+
+        spells.put(SpellRegistry.GUST_SPELL.get(), new SpellAttributes(10, true, 0.1f, 1f));
+
+        spells.put(SpellRegistry.INVISIBILITY_SPELL.get(), new SpellAttributes(6, true, 0.1f, 1f));
+
+        spells.put(SpellRegistry.THROW_SPELL.get(), new SpellAttributes(5, true, 0.1f, 1f));
 
         if (hasLegendary_SpellbooksCompat()) {
-            spells.put(LSSpellRegistry.TORNADO_SPELL .get(), new SpellAttributes(10, true, 0.1f, 1f));
+            spells.put(LSSpellRegistry.TORNADO_SPELL.get(), new SpellAttributes(10, true, 0.1f, 1f));
 
-            spells.put(LSSpellRegistry.QUAD_TORNADO_SPELL .get(), new SpellAttributes(5, true, 0.1f, 1f));
+            spells.put(LSSpellRegistry.QUAD_TORNADO_SPELL.get(), new SpellAttributes(5, true, 0.1f, 1f));
             }
         return spells;
     }
