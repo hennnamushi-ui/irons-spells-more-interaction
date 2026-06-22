@@ -1,5 +1,4 @@
 {
-  "__comment": "items in this tag are treated as Echo curios",
   "replace": false,
   "values": [
     { "id": "irons_spells_more_interaction:abyssal_echo_curio",      "required": false },

@@ -22,7 +22,6 @@ public final class IronsSpellsMoreInteraction {
         IEventBus modEventBus =FMLJavaModLoadingContext.get().getModEventBus();
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModLootModifiers.LOOT_MODIFIERS.register(modEventBus);
-        IronsSpellsMoreInteractionTabs.MOD_TABS.register(modEventBus);
         if (hasWind_SpellbooksCompat()){
             Wind_Scroll.SCROLL_TABS.register(modEventBus);
         }
@@ -33,6 +32,7 @@ public final class IronsSpellsMoreInteraction {
             Familiars_Scroll.SCROLL_TABS.register(modEventBus);
         }
         if (hasTravelopticsCompat()) {
+            IronsSpellsMoreInteractionTabs.MOD_TABS.register(modEventBus);
             if (hasCataclysm_spellbooksCompat()) {
                 CSItems.ITEMS.register(bus);
             }
