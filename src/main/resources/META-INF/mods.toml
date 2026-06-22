@@ -32,43 +32,4 @@ versionRange="[5.7.0,)"
 ordering="AFTER"
 side="BOTH"
 
-[[dependencies.irons_spells_more_interaction]]
-modId="irons_spellbooks"
-mandatory=false
-ordering="AFTER"
-side="BOTH"
-
-[[dependencies.irons_spells_more_interaction]]
-modId="traveloptics"
-mandatory=false
-ordering="AFTER"
-side="BOTH"
-
-[[dependencies.irons_spells_more_interaction]]
-modId="cataclysm_spellbooks"
-mandatory=false
-ordering="AFTER"
-side="BOTH"
-
-[[dependencies.irons_spells_more_interaction]]
-modId="alshanex_familiars"
-mandatory=false
-ordering="AFTER"
-side="BOTH"
-
-[[dependencies.irons_spells_more_interaction]]
-modId="legendary_spellbooks"
-mandatory=false
-ordering="AFTER"
-side="BOTH"
-
-[[dependencies.irons_spells_more_interaction]]
-modId="wind_spellbooks"
-mandatory=false
-ordering="AFTER"
-side="BOTH"
-
-
-# 以下、traveloptics / cataclysm_spellbooks / alshanex_familiars /
-# legendary_spellbooks / wind_spellbooks を同じ書式で並べる
 
