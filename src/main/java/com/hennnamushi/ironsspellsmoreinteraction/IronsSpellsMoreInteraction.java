@@ -5,6 +5,7 @@ import com.hennnamushi.ironsspellsmoreinteraction.compat.cataclysm_spellbooks.ta
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Wind_Item;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Wind_Scroll;
 import com.hennnamushi.ironsspellsmoreinteraction.init.ModLootModifiers;
 import com.hennnamushi.ironsspellsmoreinteraction.regi.tab.IronsSpellsMoreInteractionTabs;
@@ -24,6 +25,7 @@ public final class IronsSpellsMoreInteraction {
         ModLootModifiers.LOOT_MODIFIERS.register(modEventBus);
         if (hasWind_SpellbooksCompat()){
             Wind_Scroll.SCROLL_TABS.register(modEventBus);
+            Wind_Item.ITEM_TABS.register(modEventBus);
         }
         if (hasCataclysm_spellbooksCompat()) {
             Cataclysm_Scroll.SCROLL_TABS.register(modEventBus);

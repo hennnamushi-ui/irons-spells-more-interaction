@@ -9,6 +9,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -23,7 +24,7 @@ public class IronsSpellsMoreInteractionTabs {
                     "ironsspellsmoreinteraction",
                     () -> CreativeModeTab.builder()
                             .title(Component.translatable("itemGroup.issmitab"))
-                            .icon(() -> new ItemStack(FamiliarsItems.SOUND_ECHO_CURIO.get()))
+                            .icon(IronsSpellsMoreInteractionTabs::createIcon)
                             .displayItems((params, output) -> {
 
                                 if (IronsSpellsMoreInteraction.hasTravelopticsCompat()) {
@@ -42,6 +43,20 @@ public class IronsSpellsMoreInteractionTabs {
                                    }
                                 }
                             })
-                            .build()
-            );
+                            .build());
+    private static ItemStack createIcon(){
+        if (hasAlshanex_FamiliarsCompat()){
+            return new ItemStack(FamiliarsItems.SOUND_ECHO_CURIO.get());
+        }
+        if (hasCataclysm_spellbooksCompat()) {
+            return new ItemStack(CSItems.ABYSSAL_ECHO_CURIO.get());
+        }
+        if (hasLegendary_SpellbooksCompat()) {
+            return new ItemStack(LSItems.ANNIHILATION_ECHO_CURIO.get());
+        }
+        if (hasWind_SpellbooksCompat()) {
+            return new ItemStack(WindItems.WIND_ECHO_CURIO.get());
+        }
+        return new ItemStack(Items.BOOK);
+    }
 }
