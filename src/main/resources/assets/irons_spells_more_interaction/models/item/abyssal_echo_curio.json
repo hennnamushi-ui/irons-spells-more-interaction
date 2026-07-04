@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "irons_spells_more_interaction:item/abyssal_echo"
+  }
+}

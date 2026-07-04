@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "irons_spells_more_interaction:abyssal_echo_curio",      "required": false },
+    { "id": "irons_spells_more_interaction:techno_echo_curio",       "required": false },
+    { "id": "irons_spells_more_interaction:sound_echo_curio",        "required": false },
+    { "id": "irons_spells_more_interaction:annihilation_echo_curio", "required": false },
+    { "id": "irons_spells_more_interaction:wind_echo_curio",         "required": false }
+  ]
+}
