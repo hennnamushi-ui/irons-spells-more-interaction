@@ -1,0 +1,37 @@
+# Irons Spells More Interaction License
+
+Copyright (c) 2026 変な虫
+
+All Rights Reserved.
+
+## Permissions
+
+You are permitted to:
+
+* Use this mod.
+* Include this mod in public or private modpacks.
+* Create videos, livestreams, and other content featuring this mod, including monetized content.
+* Modify this mod for personal use.
+* Port this mod to other supported Minecraft versions for personal use, including backports and forward ports.
+
+## Modified Versions
+
+You may create modified versions of this mod.
+
+You may distribute a modified version **only after obtaining explicit permission from the original author**. Modified versions must:
+
+* Clearly state that they are not the original release.
+* Give appropriate credit to the original author.
+* Include this license.
+
+## Restrictions
+
+Unless explicitly permitted above, you may not:
+
+* Redistribute the original version of this mod.
+* Claim this mod or its contents as your own.
+* Remove or alter the original copyright notice.
+
+## Disclaimer
+
+This software is provided "as is", without warranty of any kind. The author is not liable for any damages arising from its use.
