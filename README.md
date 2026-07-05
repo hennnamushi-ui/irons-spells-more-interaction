@@ -1,25 +1,7 @@
-
-Installation information
-=======
-
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+github https://github.com/hennnamushi-ui/irons-spells-more-interaction
+curse forge https://www.curseforge.com/minecraft/mc-mods/irons-spells-more-interaction
+modrinth https://modrinth.com/mod/irons-spells-more-interaction
+discord 992197861712351252
+Adds some cooperative elements to several add-on mods for Irons Spells
+This mod is licensed under the ARR license, but feel free to backport it or make other modifications as you see fit. If development stops, please let us know on Curse Forge or Discord; if we don’t hear back within a month, you’re free to continue developing it on your own. As for other uses, I generally grant permission for everything as long as you ask for it first.
+However, if you include it in a modpack, you don’t need to contact me at all.
