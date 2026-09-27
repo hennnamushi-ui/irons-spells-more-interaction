@@ -3,6 +3,7 @@ package com.hennnamushi.ironsspellsmoreinteraction;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.alshanex_familiars.tab.Familiars_Scroll;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.cataclysm_spellbooks.tab.Cataclysm_Scroll;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.fantasy_ending.item.FEItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Wind_Item;
@@ -41,6 +42,9 @@ public final class IronsSpellsMoreInteraction {
             if (hasAlshanex_FamiliarsCompat()) {
                 FamiliarsItems.ITEMS.register(bus);
             }
+            if (hasFantasy_EndingCompat()) {
+                FEItems.ITEMS.register(bus);
+            }
             if (hasLegendary_SpellbooksCompat()) {
                 LSItems.ITEMS.register(bus);
             }
@@ -69,5 +73,9 @@ public final class IronsSpellsMoreInteraction {
 
     public static boolean hasWind_SpellbooksCompat() {
         return ModList.get().isLoaded("wind_spellbooks");
+    }
+
+    public static boolean hasFantasy_EndingCompat() {
+        return ModList.get().isLoaded("fantasy_ending");
     }
 }

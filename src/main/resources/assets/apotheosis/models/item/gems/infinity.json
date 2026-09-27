@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {"layer0": "apotheosis:items/gems/infinity"},
+  "loader": "avaritia:cosmic",
+  "cosmic": {"mask": "apotheosis:items/gems/infinity_mask"}
+}

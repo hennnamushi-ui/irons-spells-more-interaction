@@ -3,6 +3,7 @@ package com.hennnamushi.ironsspellsmoreinteraction.regi.tab;
 import com.hennnamushi.ironsspellsmoreinteraction.IronsSpellsMoreInteraction;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.cataclysm_spellbooks.item.CSItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.fantasy_ending.item.FEItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
 import net.minecraft.core.registries.Registries;
@@ -40,6 +41,9 @@ public class IronsSpellsMoreInteractionTabs {
                                    }
                                    if (hasWind_SpellbooksCompat()) {
                                    output.accept(WindItems.WIND_ECHO_CURIO.get());
+                                   }
+                                   if (hasFantasy_EndingCompat()) {
+                                   output.accept(FEItems.FANTASY_ECHO_CURIO.get());
                                    }
                                 }
                             })

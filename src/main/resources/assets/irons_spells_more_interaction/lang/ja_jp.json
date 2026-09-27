@@ -13,6 +13,11 @@
   "item.apotheosis.gem.apotheosis:fantasy": "夢幻の宝石",
   "item.apotheosis.gem.apotheosis:annihilation": "壊滅の宝石",
   "item.apotheosis.gem.apotheosis:wind": "疾風の宝石",
+  "item.apotheosis.gem.apotheosis:shadow": "影の宝石",
+  "item.apotheosis.gem.apotheosis:relicron": "失技の宝石",
+  "item.apotheosis.gem.apotheosis:infinity": "無限の宝石",
+  "item.apotheosis.gem.apotheosis:tainted": "汚染の宝石",
+  "item.apotheosis.gem.apotheosis:unstable": "不定の宝石",
   "item.apotheosis.gem.apotheotic_additions:aqua": "泡沫の宝石",
   "item.apotheosis.gem.apotheotic_additions:abyssal": "深淵の宝石",
   "item.apotheosis.gem.apotheotic_additions:technomancy": "技術の宝石",
@@ -22,6 +27,11 @@
   "item.apotheosis.gem.apotheotic_additions:fantasy": "夢幻の宝石",
   "item.apotheosis.gem.apotheotic_additions:annihilation": "壊滅の宝石",
   "item.apotheosis.gem.apotheosis_additions:wind": "疾風の宝石",
+  "item.apotheosis.gem.apotheosis_additions:shadow": "影の宝石",
+  "item.apotheosis.gem.apotheosis_additions:relicron": "失技の宝石",
+  "item.apotheosis.gem.apotheosis_additions:infinity": "無限の宝石",
+  "item.apotheosis.gem.apotheosis_additions:tainted": "汚染の宝石",
+  "item.apotheosis.gem.apotheosis_additions:unstable": "不定の宝石",
   "item.irons_spells_more_interaction.abyssal_echo_curio": "深淵の残響",
   "item.irons_spells_more_interaction.abyssal_echo_curio.unassigned.tooltip": "§e右クリックして§2深淵の呪文を呼び覚ますのだ...",
   "item.irons_spells_more_interaction.abyssal_echo_curio.assigned.tooltip": "深淵の呪文が呼び覚まされた...深淵からこちらを望む何者かが力を貸してくれる...",
@@ -36,5 +46,8 @@
   "item.irons_spells_more_interaction.annihilation_echo_curio.assigned.tooltip": "殲滅の呪文が吹き込まれたどうやらこの力を使う権利があるようだ...",
   "item.irons_spells_more_interaction.wind_echo_curio": "暴風の残響",
   "item.irons_spells_more_interaction.wind_echo_curio.unassigned.tooltip": "§e右クリックして§2その息吹を解き放て",
-  "item.irons_spells_more_interaction.wind_echo_curio.assigned.tooltip": "風の呪文が吹き込まれたこの風はもしかしたら一羽の蝶の羽ばたきだったかもしれない"
+  "item.irons_spells_more_interaction.wind_echo_curio.assigned.tooltip": "風の呪文が吹き込まれたこの風は一羽の蝶の羽ばたきだったかもしれない",
+  "item.irons_spells_more_interaction.fantasy_echo_curio": "夢幻の残響",
+  "item.irons_spells_more_interaction.fantasy_echo_curio.unassigned.tooltip": "§e右クリックして§2その悪夢を思い起こせ...",
+  "item.irons_spells_more_interaction.fantasy_echo_curio.assigned.tooltip": "夢幻の呪文が吹き込まれた...この景色は夢か幻か?もしくは..."
 }

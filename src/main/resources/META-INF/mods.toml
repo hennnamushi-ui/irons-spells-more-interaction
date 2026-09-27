@@ -32,4 +32,16 @@ versionRange="[5.7.0,)"
 ordering="AFTER"
 side="BOTH"
 
+[[dependencies.irons_spells_more_interaction]]
+    modId="fantasy_ending"
+    mandatory=false
+    versionRange="[2.7.20,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.irons_spells_more_interaction]]
+    modId="apotheosis"
+    mandatory=false
+    versionRange="[7.4,)"
+    ordering="NONE"
+    side="BOTH"
