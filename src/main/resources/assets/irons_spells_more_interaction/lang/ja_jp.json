@@ -49,5 +49,8 @@
   "item.irons_spells_more_interaction.wind_echo_curio.assigned.tooltip": "風の呪文が吹き込まれたこの風は一羽の蝶の羽ばたきだったかもしれない",
   "item.irons_spells_more_interaction.fantasy_echo_curio": "夢幻の残響",
   "item.irons_spells_more_interaction.fantasy_echo_curio.unassigned.tooltip": "§e右クリックして§2その悪夢を思い起こせ...",
-  "item.irons_spells_more_interaction.fantasy_echo_curio.assigned.tooltip": "夢幻の呪文が吹き込まれた...この景色は夢か幻か?もしくは..."
+  "item.irons_spells_more_interaction.fantasy_echo_curio.assigned.tooltip": "夢幻の呪文が吹き込まれた...この景色は夢か幻か?もしくは...",
+  "item.irons_spells_more_interaction.infinity_echo_curio": "無限の残響",
+  "item.irons_spells_more_interaction.infinity_echo_curio.unassigned.tooltip": "§e右クリックして§2無限の彼方へ、さあ行くぞ‼",
+  "item.irons_spells_more_interaction.infinity_echo_curio.assigned.tooltip": "無限の呪文が吹き込まれた永久に続く、それは果たして幸か不幸か悠久の時間とともにに考え続けよう..."
 }

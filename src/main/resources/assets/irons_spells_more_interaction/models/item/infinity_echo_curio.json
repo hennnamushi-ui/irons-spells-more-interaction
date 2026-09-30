@@ -1,0 +1,10 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "irons_spells_more_interaction:item/infinity_echo"
+  },
+  "loader": "avaritia:cosmic",
+  "cosmic": {
+    "mask": "irons_spells_more_interaction:item/infinity_echo_mask"
+  }
+}

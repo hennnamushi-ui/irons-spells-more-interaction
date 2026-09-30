@@ -3,6 +3,7 @@ package com.hennnamushi.ironsspellsmoreinteraction.regi.tab;
 import com.hennnamushi.ironsspellsmoreinteraction.IronsSpellsMoreInteraction;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.cataclysm_spellbooks.item.CSItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.chaotic_world_content.compat.avaritia.item.GGavaItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.fantasy_ending.item.FEItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
@@ -45,6 +46,9 @@ public class IronsSpellsMoreInteractionTabs {
                                    if (hasFantasy_EndingCompat()) {
                                    output.accept(FEItems.FANTASY_ECHO_CURIO.get());
                                    }
+                                   if (hasAlshanex_FamiliarsCompat()) {
+                                   output.accept(GGavaItems.INFINITY_ECHO_CURIO.get());
+                                   }
                                 }
                             })
                             .build());
@@ -60,6 +64,12 @@ public class IronsSpellsMoreInteractionTabs {
         }
         if (hasWind_SpellbooksCompat()) {
             return new ItemStack(WindItems.WIND_ECHO_CURIO.get());
+        }
+        if (hasFantasy_EndingCompat()) {
+            return new ItemStack(FEItems.FANTASY_ECHO_CURIO.get());
+        }
+        if (hasBielggSpellsCompat()){
+            return new ItemStack(GGavaItems.INFINITY_ECHO_CURIO.get());
         }
         return new ItemStack(Items.BOOK);
     }
