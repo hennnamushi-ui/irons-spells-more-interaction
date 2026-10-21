@@ -53,7 +53,9 @@ public final class IronsSpellsMoreInteraction {
                 WindItems.ITEMS.register(bus);
             }
             if (hasBielggSpellsCompat()) {
-                GGavaItems.ITEMS.register(bus);
+                if (hasAvaritiaCompat()) {
+                    GGavaItems.ITEMS.register(bus);
+                }
             }
         }
 
@@ -86,4 +88,9 @@ public final class IronsSpellsMoreInteraction {
     public static boolean hasBielggSpellsCompat() {
         return ModList.get().isLoaded("bielgg_spells");
     }
+
+    public static boolean hasAvaritiaCompat() {
+        return ModList.get().isLoaded("avaritia");
+    }
+
 }

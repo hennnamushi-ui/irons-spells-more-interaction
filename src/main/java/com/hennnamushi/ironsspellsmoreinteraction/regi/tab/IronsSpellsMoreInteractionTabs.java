@@ -46,8 +46,10 @@ public class IronsSpellsMoreInteractionTabs {
                                    if (hasFantasy_EndingCompat()) {
                                    output.accept(FEItems.FANTASY_ECHO_CURIO.get());
                                    }
-                                   if (hasAlshanex_FamiliarsCompat()) {
-                                   output.accept(GGavaItems.INFINITY_ECHO_CURIO.get());
+                                   if (hasBielggSpellsCompat()) {
+                                       if (hasAvaritiaCompat()) {
+                                           output.accept(GGavaItems.INFINITY_ECHO_CURIO.get());
+                                       }
                                    }
                                 }
                             })
@@ -69,7 +71,9 @@ public class IronsSpellsMoreInteractionTabs {
             return new ItemStack(FEItems.FANTASY_ECHO_CURIO.get());
         }
         if (hasBielggSpellsCompat()){
-            return new ItemStack(GGavaItems.INFINITY_ECHO_CURIO.get());
+            if (hasAvaritiaCompat()) {
+                return new ItemStack(GGavaItems.INFINITY_ECHO_CURIO.get());
+            }
         }
         return new ItemStack(Items.BOOK);
     }
