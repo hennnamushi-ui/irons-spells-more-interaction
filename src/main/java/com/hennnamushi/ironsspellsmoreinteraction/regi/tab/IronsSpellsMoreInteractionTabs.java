@@ -1,12 +1,12 @@
 package com.hennnamushi.ironsspellsmoreinteraction.regi.tab;
 
 import com.hennnamushi.ironsspellsmoreinteraction.IronsSpellsMoreInteraction;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.cataclysm_spellbooks.item.CSItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.chaotic_world_content.compat.avaritia.item.GGavaItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.fantasy_ending.item.FEItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.alshanex_familiars.item.FamiliarsItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.cataclysm_spellbooks.item.CSItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.chaotic_world_content.compat.avaritia.item.GGavaItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.fantasy_ending.item.FEItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.legendary_spellbooks.item.LSItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.wind_spellbooks.item.WindItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -29,7 +29,7 @@ public class IronsSpellsMoreInteractionTabs {
                             .icon(IronsSpellsMoreInteractionTabs::createIcon)
                             .displayItems((params, output) -> {
 
-                                if (IronsSpellsMoreInteraction.hasTravelopticsCompat()) {
+                                if (IronsSpellsMoreInteraction.hasGTBCs_Spell_LibCompat()) {
                                    if (hasCataclysm_spellbooksCompat()) {
                                    output.accept(CSItems.TECHNO_ECHO_CURIO.get());
                                    output.accept(CSItems.ABYSSAL_ECHO_CURIO.get());

@@ -1,12 +1,14 @@
 package com.hennnamushi.ironsspellsmoreinteraction;
 
 import com.hennnamushi.ironsspellsmoreinteraction.compat.alshanex_familiars.tab.Familiars_Scroll;
+//import com.hennnamushi.ironsspellsmoreinteraction.compat.cataclysm_spellbooks.tab.Cataclysm_Scroll;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.cataclysm_spellbooks.tab.Cataclysm_Scroll;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.alshanex_familiars.item.FamiliarsItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.chaotic_world_content.compat.avaritia.item.GGavaItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.fantasy_ending.item.FEItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.legendary_spellbooks.item.LSItems;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.wind_spellbooks.item.WindItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.alshanex_familiars.item.FamiliarsItems;
+//import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.chaotic_world_content.compat.avaritia.item.GGavaItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.chaotic_world_content.compat.avaritia.item.GGavaItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.fantasy_ending.item.FEItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.legendary_spellbooks.item.LSItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.wind_spellbooks.item.WindItems;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Wind_Item;
 import com.hennnamushi.ironsspellsmoreinteraction.compat.wind_spellbooks.tab.Wind_Scroll;
 import com.hennnamushi.ironsspellsmoreinteraction.init.ModLootModifiers;
@@ -15,7 +17,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import com.hennnamushi.ironsspellsmoreinteraction.compat.traveloptics.compat.cataclysm_spellbooks.item.CSItems;
+import com.hennnamushi.ironsspellsmoreinteraction.compat.gtbcs_spell_lib.compat.cataclysm_spellbooks.item.CSItems;
 
 @Mod(IronsSpellsMoreInteraction.MOD_ID)
 public final class IronsSpellsMoreInteraction {
@@ -35,9 +37,9 @@ public final class IronsSpellsMoreInteraction {
         if (hasAlshanex_FamiliarsCompat()) {
             Familiars_Scroll.SCROLL_TABS.register(modEventBus);
         }
-        if (hasTravelopticsCompat()) {
-            IronsSpellsMoreInteractionTabs.MOD_TABS.register(modEventBus);
-            if (hasCataclysm_spellbooksCompat()) {
+         if (hasGTBCs_Spell_LibCompat()) {
+             IronsSpellsMoreInteractionTabs.MOD_TABS.register(modEventBus);
+             if (hasCataclysm_spellbooksCompat()) {
                 CSItems.ITEMS.register(bus);
             }
             if (hasAlshanex_FamiliarsCompat()) {
@@ -57,12 +59,16 @@ public final class IronsSpellsMoreInteraction {
                     GGavaItems.ITEMS.register(bus);
                 }
             }
-        }
+         }
 
     }
 
     public static boolean hasTravelopticsCompat() {
         return ModList.get().isLoaded("traveloptics");
+    }
+
+    public static boolean hasGTBCs_Spell_LibCompat() {
+        return ModList.get().isLoaded("gtbcs_spell_lib");
     }
 
     public static boolean hasCataclysm_spellbooksCompat() {
